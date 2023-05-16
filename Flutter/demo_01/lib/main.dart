@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
   }
-  
+
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
        
-        title: Text(widget.title),
+        title: Text('Ana Sayfa'),
       ),
       body: Center(
     
@@ -55,11 +55,12 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+               'Butona basılma sayısı:',
+              style: TextStyle(fontSize: 18),
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
             ),
           ],
         ),
