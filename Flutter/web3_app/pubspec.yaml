@@ -33,6 +33,10 @@ dependencies:
     web3dart: ^2.4.0
     web_socket_channel: ^2.2.0
 
+dependency_overrides:
+ web3dart: ^2.4.0
+ collections: ^1.16.0
+ async: ^2.9.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -63,7 +67,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
  assets:
-   - images/a_dot_burr.jpeg
+   - build/contrcts/HelloWorld.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
