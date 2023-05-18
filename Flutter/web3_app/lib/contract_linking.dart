@@ -9,5 +9,8 @@ class Contractlinking{
 Web3Client? Web3client;
 
 bool isLoading = false;
+String? abicode;
+
+EthereumAddress? contractAddress;
 
 }
