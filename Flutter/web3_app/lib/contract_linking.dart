@@ -15,5 +15,7 @@ EthereumAddress? contractAddress;
 
 Credentials? credential;
 
+DeploymentContent? contract;
+
 }
 
