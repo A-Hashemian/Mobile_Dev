@@ -21,5 +21,7 @@ ContractFunction? _message;
 
 ContractFunction? _sendMessage;
 
+String? deployedName;
+
 }
 
