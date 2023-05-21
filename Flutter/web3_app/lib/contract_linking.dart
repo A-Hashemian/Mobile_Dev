@@ -30,7 +30,7 @@ Contractlinking(){
 
 setup() async {
 
-  _web3client=Web3Client
+  _web3client=Web3Client(_rpcUrl,)
 
 }
 
