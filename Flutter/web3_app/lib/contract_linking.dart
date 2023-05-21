@@ -13,4 +13,7 @@ String? abicode;
 
 EthereumAddress? contractAddress;
 
+Credentials? credential;
+
 }
+
