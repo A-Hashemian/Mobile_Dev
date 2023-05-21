@@ -25,9 +25,7 @@ String? deployedName;
 
 Contractlinking(){
 
-
-
-  
+  setup(); 
 }
 
 }
