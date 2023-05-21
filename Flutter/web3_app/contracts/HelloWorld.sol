@@ -12,7 +12,7 @@ contract HelloWorld {
         return message;
     }
 
-    function setMessage(string memory newMessage) public {
-        message = newMessage;
+    function setMessage(string memory _message) public {
+        message = _message;
     }
 }
