@@ -2,22 +2,24 @@ import 'package:web3dart/web3dart.dart';
 
 class Contractlinking{
 
-  final String rpcUrl ="http://127.0.0.1:8545";
-  final String wsUrl ="ws://127.0.0.1:8545";
-  final String privateUrl ="a622d80d9181b016de1f3667d52c0abde8c03d3c5386540eddfb837ac7227b80";
+  final String _rpcUrl ="http://127.0.0.1:8545";
+  final String _wsUrl ="ws://127.0.0.1:8545";
+  final String _privateUrl ="a622d80d9181b016de1f3667d52c0abde8c03d3c5386540eddfb837ac7227b80";
 
-Web3Client? Web3client;
+Web3Client? _web3client;
 
 bool isLoading = false;
 String? abicode;
 
-EthereumAddress? contractAddress;
+EthereumAddress? _contractAddress;
 
-Credentials? credential;
+Credentials? _credential;
 
-DeploymentContent? contract;
+DeploymentContent? _contract;
 
 ContractFunction? _message;
+
+ContractFunction? _sendMessage;
 
 }
 
