@@ -17,5 +17,7 @@ Credentials? credential;
 
 DeploymentContent? contract;
 
+ContractFunction? _message;
+
 }
 
