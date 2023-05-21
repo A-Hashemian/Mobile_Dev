@@ -28,5 +28,9 @@ Contractlinking(){
   setup(); 
 }
 
+setup() async {
+
+  _web3client=Web3Client
+
 }
 
