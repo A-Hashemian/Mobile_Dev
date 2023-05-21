@@ -23,5 +23,12 @@ ContractFunction? _sendMessage;
 
 String? deployedName;
 
+Contractlinking(){
+
+
+
+  
+}
+
 }
 
