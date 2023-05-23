@@ -33,7 +33,7 @@ setup() async {
   _web3client=Web3Client(_rpcUrl,Client().socketConnector:(){
 
     return IOWebSocketChannel.connect(url: _wsUrl).cast();
-  });
+  },);
 
 }
 
