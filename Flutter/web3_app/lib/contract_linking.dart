@@ -26,7 +26,7 @@ String? deployedName;
 Contractlinking(){
 
   setup(); 
-}
+
 
 setup() async {
 
@@ -35,5 +35,7 @@ setup() async {
     return IOWebSocketChannel.connect(url: _wsUrl).cast<String>();
   },);
 
-}
+await getAbi();
 
+}
+}
