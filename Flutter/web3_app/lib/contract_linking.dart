@@ -40,4 +40,10 @@ await getCredentials();
 await getDeployedContract();
 
 }
+
+Future<void> getAbi()async{
+
+
+  
+}
 }
