@@ -37,6 +37,7 @@ setup() async {
 
 await getAbi();
 await getCredentials();
+await getDeployedContract();
 
 }
 }
