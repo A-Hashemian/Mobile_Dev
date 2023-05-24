@@ -43,7 +43,7 @@ await getDeployedContract();
 
 Future<void> getAbi()async{
 
-String abiStringfile= await rootBundle.loadString('assets/abi.json');
+String abiStringfile= await rootBundle.loadString('build/contracts/HelloWorld.json');
 
 }
 }
