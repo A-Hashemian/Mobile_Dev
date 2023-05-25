@@ -50,4 +50,10 @@ _abiCode=jsonAbi('abi');
 
 _contractAddress= EthereumAddress.formHex(jsonAbi['']['']['']);
 }
+
+Future<void> getCredentials()async{
+
+ _credentials= await Credentials.fromPrivateKey(_privativeKey);
+
+}
 }
