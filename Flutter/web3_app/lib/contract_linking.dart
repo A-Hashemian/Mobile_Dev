@@ -47,5 +47,7 @@ String abiStringfile= await rootBundle.loadString('build/contracts/HelloWorld.js
 final jsonAbi= jsonDecode(abiStringfile);
 
 _abiCode=jsonAbi('abi');
+
+_contractAddress= EthereumAddress.formHex(jsonAbi['']['']['']);
 }
 }
