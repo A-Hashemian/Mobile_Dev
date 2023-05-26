@@ -53,7 +53,7 @@ _contractAddress= EthereumAddress.formHex(jsonAbi['']['']['']);
 
 Future<void> getCredentials()async{
 
- _credentials= await Credentials.fromPrivateKey(_privativeKey);
+ _credentials= await _web3client.credentialsFromPrivateKey.fromPrivateKey(_privativeKey);
 
 }
 }
